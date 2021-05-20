@@ -30,7 +30,8 @@ background(jungleimg)
 textSize(60)
 fill("blue")
 text("The Education Adventure!",100,100)
-text("By Hashim")    
+    textSize(30)
+text("By Hashim",100,150)    
 
 drawSprites();
 }
