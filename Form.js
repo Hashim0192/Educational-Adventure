@@ -107,7 +107,7 @@ this.l3button.mousePressed(()=>{
     })
 
 
-// MONA: Here is the code to display verify and display correct answer, do the same way for rest
+
 var answer;
 this.l1answer.mousePressed(()=>{
  
@@ -166,7 +166,7 @@ this.check2.mousePressed(()=>{
 this.check3.mousePressed(()=>{
 
     var answer = this.l3input.value()
-    var correctans = (answer == 120) ? "Yes" : "No";
+    var correctans = (answer == 120cm) ? "Yes" : "No";
    console.log(correctans);
    
    
