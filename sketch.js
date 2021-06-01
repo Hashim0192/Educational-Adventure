@@ -4,6 +4,10 @@ var adventurer,playeranimation;
 var rhinoquestionimg,rhino;
 var monkeyimg,monkey
 var chipmunkimg,chipmunk;
+var form;
+
+
+
 function preload(){
     jungleimg=loadImage("Jungle.jpg");
     rhinoquestionimg=loadImage("rhino.png")
