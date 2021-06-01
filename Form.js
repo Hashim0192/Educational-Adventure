@@ -165,10 +165,10 @@ this.check2.mousePressed(()=>{
 })  
 this.check3.mousePressed(()=>{
     
-    this.greetingq1.html("Give Your Answer without units eg.CM,M,KM")
-    this.greetingq1.position(300,200)
+    
+    
     var answer = this.l3input.value()
-    var correctans = (answer == 120cm) ? "Yes" : "No";
+    var correctans = (answer == 120) ? "Yes" : "No";
    console.log(correctans);
    
    
